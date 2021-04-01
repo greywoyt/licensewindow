@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>License</title>
+    <link rel="stylesheet" href="./source/css/reset.css">
+    <link rel="stylesheet" href="./source/css/style.css">
+    <script src="source/js/action.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <section class="licenses">
+            <div class="license-cost">
+                <input type="radio" name="license" value="1" id="license-1" class="radio1">
+                <label for="license-1" class="license-label label1">
+                        <div>License plan <span class="plan-1">#1</span></div>
+                        <div>$<span class="price-1">13</span> per license</div>
+                </label>
+            </div>
+            <div class="license-cost">
+                <input type="radio" name="license" value="2" id="license-2" class="radio2">
+                <label for="license-2" class="license-label label2">
+                    <div>License plan <span class="plan-2">#2</span></div>
+                    <div>$<span class="price-2">22</span> per license</div>
+                </label>
+            </div>
+            <div class="license-cost">
+                <input type="radio" name="license" value="3" id="license-3" class="radio3" checked>
+                <label for="license-3" class="license-label label3">
+                    <div>License plan <span class="plan-3">#3</span></div>
+                    <div>$<span class="price-3">34</span> per license</div>    
+                </label>
+            </div>
+            <hr />
+        </section>
+        <section>
+            <div class="number-licenses">
+                <label for="licenses-number">Number of licenses:</label>
+                <select name="licenses-number" id="licenses-number" size="1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10" selected>10</option>
+                </select>
+            </div>
+            <hr />
+        </section>
+        <section>
+            <div class="license-buy">
+                <div class="license-price">
+                    <span>Total:</span>
+                    <span>$</span><span class="money-amount">340</span><span class="license-currency"><sup>US</sup></sup></span>
+                </div>
+                <button>Buy now</button>
+            </div>
+        </section>
+        <section>
+            <div class="selected-plan">
+                <span>Selected plan: </span>
+                <span>#3</span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
