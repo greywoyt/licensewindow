@@ -36,9 +36,6 @@ label.license-label div:last-child {
     font-size: 14px;
 }
 
-
-/********************/
-
 input[type="radio"]:checked,
 input[type="radio"]:not(:checked) {
     position: absolute;
@@ -54,7 +51,6 @@ input[type="radio"]:not(:checked)+label {
     padding: 15px 15px 15px 52px;
     line-height: 20px;
     cursor: pointer;
-    /*border: 1px solid;*/
 }
 
 input[type="radio"]:checked+label:before,
@@ -109,9 +105,6 @@ input[type="radio"]:not(:checked)+label:after {
 input[type="radio"]:checked+label:after {
     opacity: 1;
 }
-
-
-/********************/
 
 .number-licenses {
     display: flex;
